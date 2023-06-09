@@ -7,7 +7,7 @@ class A{
 class B extends A{
     @Override
     public String meth(){
-//        super.meth();
+        System.out.println(super.meth());
         return "Method is overridden in Extendend class B";
     }
 }
